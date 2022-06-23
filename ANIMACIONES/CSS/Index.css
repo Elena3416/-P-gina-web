@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+background: linear-gradient(90deg, rgb(65, 215, 225) 0%, rgb(85, 192, 231) 51%, rgb(78, 196, 214) 100%);
+width: 100%;
+height: 100vh;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+ 
+.colorlink{
+  font-size: 50px;
+}
+
+.colorlink:hover{
+  color: aliceblue;
+}
+
+#Menu{
+  font-size: 25px;
+  margin-left: 15%;
+}
+
+#Menu a:hover{
+  color: aliceblue;
+}
+
+.menuimágenes{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  border: 10px solid beige;
+}
+
+.menuimágenes #img1 {
+animation: Slider 5s linear infinite;
+width: 100%;
+height: 100%;
+}
+
+.texto1{
+  font-size: 20px;
+  color: saddlebrown;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.texto2{
+  font-size: 25px;
+  margin-top: 17%;
+  color: saddlebrown;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+.iconos{
+  font-size: 30px;
+}
+
+.colortexto{
+  color: rgb(89, 27, 4);
+  margin-left: 40%;
+}
+
+.button{
+  margin-left: 40%;
+}
+
+#Piepagina{
+  font-size: 15px;
+  color: saddlebrown;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+} 
+
+@keyframes Slider{
+/*La animación debe ocupar un 100% */
+0% {
+  margin-left: 0%;
+}
+20% {
+  margin-left: 0%;
+}
+35% {
+  margin-left: -46%;
+}
+55% {
+  margin-left: -46%;
+}
+65% {
+  margin-left: -148%;
+}
+80% {
+  margin-left: -148%;
+}
+95% {
+  margin-left: -190%;
+}
+100% {
+  margin-left: -190%;
+}
+}
